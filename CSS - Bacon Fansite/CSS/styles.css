@@ -1,10 +1,25 @@
+/*****************TAG SELECTIORS******************/
 h1{
     color: red;
     font-size: 100px;
+    text-decoration: underline dotted red;
 }
+
+/*
 img{
-    background-color: red;
+
+    width: 150px;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;   
+*/
+/*****************CLASS SELECTIORS******************/
+.bacon{
+    background-color: blue;   
+}
+.brocolli{
+    background-color: red;
+    width: 160px;
+}
+/*****************ID SELECTIORS******************/
+#heading{
+    color: blue;
 }
