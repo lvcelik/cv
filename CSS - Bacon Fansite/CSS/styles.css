@@ -1,16 +1,19 @@
 /*****************TAG SELECTIORS******************/
+body{
+    padding: 10px 40px 10px 40px;
+}
 h1{
     color: red;
     font-size: 100px;
     text-decoration: underline dotted red;
+    box-sizing: border-box;
 }
 
-/*
-img{
 
-    width: 150px;
+img:hover{
+    background-color: gold;
 }
-*/
+
 /*****************CLASS SELECTIORS******************/
 .bacon{
     background-color: blue;   
@@ -18,8 +21,18 @@ img{
 .brocolli{
     background-color: red;
     width: 160px;
+    
+}
+.circular{
+    border-radius: 100%;
 }
 /*****************ID SELECTIORS******************/
 #heading{
     color: blue;
+}
+h1::before{
+    content: "~~";
+    color: blue;
+    text-decoration: underline;
+ 
 }
